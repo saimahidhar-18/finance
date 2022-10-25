@@ -9,7 +9,7 @@ const Video = () => {
         
         <div className="text-center my-3">
           <button className="btn btn-active btn-info ">
-            <a href="https://forms.gle/ByVbSJFHCWurWAaH7"> Register for my Webinar</a>
+            <a href="#"> Register for my Webinar</a>
           </button>
         </div>
       </div>
