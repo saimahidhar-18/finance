@@ -5,7 +5,7 @@ const Video = () => {
   return (
     <div className="my-20">
       <div className="flex flex-col justify-center">
-        <video src={flp} autoPlay controls />
+        <video src={flp} autoPlay/>
         
         <div className="text-center my-3">
           <button className="btn btn-active btn-info ">
