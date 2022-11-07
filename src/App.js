@@ -1,21 +1,21 @@
-import Details from "./components/Details";
-import Footer from "./components/Footer";
-import ImageCorusel from "./components/ImageCorusel";
-import Maintext from "./components/Maintext";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Video from "./components/Video";
+import ErrorPage from "./pages/ErrorPage";
+import FirstMeetingPage from "./pages/FirstMeetingPage";
+import HomePage from "./pages/HomePage";
+import SecondMeetingPage from "./pages/SecondMeetingPage";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Maintext />
-
-      <Video />
-      <Footer />
-
-      <Details />
-      <ImageCorusel />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/first-meeting" element={<FirstMeetingPage />} />
+        <Route path="/second-meeting" element={<SecondMeetingPage />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+      
     </div>
   );
 }
