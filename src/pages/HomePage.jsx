@@ -10,8 +10,9 @@ const HomePage = () => {
     <div>
       <Maintext />
 
-      <Video />
+     
       <Footer />
+      <Video />
 
       <Details />
       <ImageCorusel />

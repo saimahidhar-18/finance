@@ -6,9 +6,10 @@ const Footer = () => {
       <div className="text-center p-5">
         <p></p>
         <p className="text-2xl">
-          45 Minutes Master Class which gives you clear direction to Start Your
-          Second Income Source 100% Online. Without Office and Without Employees
-          from scratch. !!World Class Training!!
+          I could able to get 20k per month after a continuous service of 14 years in a job, but no time freedom and financial
+          freedom.The opportunity i got in 2015 made me millionaire within one year, multimillionaire by next year,and earned 1 crore
+          with in 5 years.I want to extend the opportunity to the people with passion.
+          "Change Your Life Today Act Now Without Any Delay"
         </p>
       </div>
     </div>

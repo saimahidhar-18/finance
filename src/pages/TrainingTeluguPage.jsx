@@ -2,9 +2,9 @@ import React from 'react'
 
 const SecondMeetingPage = () => {
   return (
-    <div>SecondMeetingPage</div>
+    <div>training telugu</div>
     
   )
 }
 
-export default SecondMeetingPage
+export default TrainingTeluguPage
