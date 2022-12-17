@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SecondMeetingPage = () => {
+const TrainingTeluguPage = () => {
   return (
     <div>training telugu</div>
     

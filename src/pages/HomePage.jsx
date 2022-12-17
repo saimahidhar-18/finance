@@ -4,16 +4,19 @@ import Footer from "../components/Footer";
 import ImageCorusel from "../components/ImageCorusel";
 import Maintext from "../components/Maintext";
 import Video from "../components/Video";
+import Navbar from "../components/Navbar"
+import About from "../components/About"
+
 
 const HomePage = () => {
   return (
     <div>
+
+    {/* <Navbar/> */}
       <Maintext />
-
-     
-      <Footer />
-      <Video />
-
+      {/* <Footer /> */}
+      {/* <Video /> */}
+      <About />
       <Details />
       <ImageCorusel />
     </div>
