@@ -1,5 +1,6 @@
 import React from 'react'
 import meeting from '../assets/images/meeting.jpeg'
+import meet from '../assets/images/meet.jpeg'
 const ImageCorusel = () => {
   return (
     <div className="mt-20 mb-10 flex flex-row">
@@ -12,7 +13,7 @@ const ImageCorusel = () => {
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative w-full">
-    <img src="https://placeimg.com/800/200/arch" className="w-full" />
+    <img src={meet} className="w-full" />
     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide1" className="btn btn-circle">❮</a> 
       <a href="#slide3" className="btn btn-circle">❯</a>
