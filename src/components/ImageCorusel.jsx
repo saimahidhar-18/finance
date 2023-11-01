@@ -1,6 +1,6 @@
 import React from 'react'
 import meeting from '../assets/images/meeting.jpeg'
-import meet from '../assets/images/meet.jpeg'
+import meet from '../assets/images/meet.jpg'
 const ImageCorusel = () => {
   return (
     <div className="mt-20 mb-10 flex flex-row">
