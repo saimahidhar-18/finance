@@ -61,7 +61,7 @@ const about = () => {
 
       <div className="text-center my-3">
         <button className="btn btn-active btn-info ">
-          <a href="tsudhakarreddy.in"> Register for this opportunity</a>
+          <a href="https://youtu.be/z7gw37NurOI"> Register for this opportunity</a>
         </button>
       </div>
     </div>
