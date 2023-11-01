@@ -9,10 +9,10 @@ const Video = () => {
   return (
     <div className="my-20">
       <div className="flex flex-col justify-center">
-        {/* <video controls autoplay controlslist="nodownload">
+        <video controls autoplay controlslist="nodownload">
           <source src={flp} type="video/mp4" />
-        </video> */}
-        {/* <img></img> */}
+        </video>
+{/*         {/* <img></img> */}
         <div className="mt-20 bg-black text-white p-5">
           <p className="text-center text-5xl">About Me</p>
           <div className="flex text-center justify-around">
@@ -48,7 +48,7 @@ const Video = () => {
         <button className="btn btn-active btn-info ">
           <a href="tsudhakarreddy.in"> Register for this opportunity</a>
         </button>
-      </div>
+      </div> */}
     </div>
     </div >
   );
